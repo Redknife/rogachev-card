@@ -1,0 +1,30 @@
+{
+  "name": "rogachev",
+  "version": "1.0.0",
+  "description": "My contact card.",
+  "main": "card.mjs",
+  "bin": {
+    "rogachev": "./card.mjs"
+  },
+  "scripts": {
+    "card": "node ./card.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Redknife/rogachev-card.git"
+  },
+  "keywords": [
+    "rogachev",
+    "redknife"
+  ],
+  "author": "Sergei Rogachev <redknife183@gmail.com> (https://github.com/Redknife)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Redknife/rogachev-card/issues"
+  },
+  "homepage": "https://github.com/Redknife/rogachev-card#readme",
+  "dependencies": {
+    "boxen": "6.2.1",
+    "picocolors": "1.0.0"
+  }
+}
